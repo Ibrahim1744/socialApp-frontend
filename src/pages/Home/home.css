@@ -1,0 +1,28 @@
+.parent{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 15px;
+}
+.right{
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 3;
+  clip-path: polygon(4% 0, 56% 0, 100% 0, 100% 100%, 57% 100%, 3% 100%, 0 50%);
+    height: 130px;
+    color: white;
+}
+.left{
+  display: flex;
+  background-color: wheat;
+  flex: 10;
+  padding: 25px;
+  min-height: 100px;
+
+}
+.left p{
+  width: 80%;
+}
