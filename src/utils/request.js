@@ -2,6 +2,6 @@ import axios from "axios";
 
 
 const request=axios.create({
-  baseURL:"http://localhost:27017"
+  baseURL:"https://socialapp-just4test.onrender.com"
 })
 export default request;
